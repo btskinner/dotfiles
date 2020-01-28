@@ -5,7 +5,7 @@ repo](https://github.com/mathiasbynens/dotfiles). Feel free to use
 mine, but this repo is more for my personal use. See his if you want
 _way_ more options.
 
-![](./img/dotfiles_one.png)
+![](https://github.com/btskinner/dotfiles/raw/master/img/dotfiles_one.png)
 
 ## `.extra`
 
