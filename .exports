@@ -1,0 +1,17 @@
+# --------
+# .exports
+# --------
+
+# add to path
+export PATH="/usr/local/opt:/usr/local/opt/ruby/bin:$PATH"
+
+# locale
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# use emacs as git editor in Terminal
+export GIT_EDITOR="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+export HOMEBREW_EDITOR="/Applications/Emacs.app/Contents/MacOS/Emacs"
+
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
