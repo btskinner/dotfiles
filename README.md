@@ -5,6 +5,8 @@ repo](https://github.com/mathiasbynens/dotfiles). Feel free to use
 mine, but this repo is more for my personal use. See his if you want
 _way_ more options.
 
+![](./img/dotfiles_one.png)
+
 ## `.extra`
 
 Not included in this repo is `.extra`, which sets up my personal git
