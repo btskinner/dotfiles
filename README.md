@@ -1,6 +1,4 @@
-# Dotfiles
-
-These are the dotfiles I use on my MacOS machine to make my life
+This repo contains the the dotfiles I use on my MacOS machine to make my life
 easier. They are heavily influenced (read: cut and paste with changes)
 by [Mathias Bynens' dotfiles
 repo](https://github.com/mathiasbynens/dotfiles). Feel free to use
