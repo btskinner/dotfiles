@@ -1,0 +1,11 @@
+# -------
+# aliases
+# -------
+
+alias ll="ls -aohG"
+alias grep="grep --color=auto"
+alias stata="/Applications/Stata/StataMP.app/Contents/MacOS/stata-mp"
+alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
