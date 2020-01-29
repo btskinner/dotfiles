@@ -3,16 +3,15 @@
 # ----------
 
 [color]
-	ui = true
+	ui = auto
 
 [alias]
-	l = log --pretty=oneline --graph --abbrev-commit
+	l = log --pretty=format:'%C(yellow)%h%Cgreen [%cn] %Cblue%ad%Cred%d %Creset%s' --decorate --date=short --graph
 	aliases = config --get-regexp alias	
   	fb = "!f() { git branch -a --contains $1; }; f"
 	ft = "!f() { git describe --always --contains $1; }; f"
 	fc = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short -S$1; }; f"
 	fm = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
-	reb = "!r() { git rebase -i HEAD~$1; }; r"
 	contributors = shortlog --summary --numbered
 	whoami = config user.email
 	tags = tag -l
