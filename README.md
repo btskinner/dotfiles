@@ -12,7 +12,7 @@ _way_ more options.
 To use these files, just copy theme to your home, `~`, directory:
 
 ```
-## inside /dotfiles
+## inside dotfiles/ directory
 cp .aliases .bash_profile .bash_prompt .bashrc .exports .gitconfig ~
 ```
 
