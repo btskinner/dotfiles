@@ -7,6 +7,15 @@ _way_ more options.
 
 ![](https://github.com/btskinner/dotfiles/raw/master/img/dotfiles_one.png)
 
+## To use
+
+To use these files, just copy theme to your home, `~`, directory:
+
+```
+## inside /dotfiles
+cp .aliases .bash_profile .bash_prompt .bashrc .exports .gitconfig ~
+```
+
 ## `.extra`
 
 Not included in this repo is `.extra`, which sets up my personal git
