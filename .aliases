@@ -1,6 +1,6 @@
-# -------
-# aliases
-# -------
+# --------
+# .aliases
+# --------
 
 alias ll="ls -aohG"
 alias grep="grep --color=auto"
