@@ -10,7 +10,8 @@ _way_ more options.
 ## `.extra`
 
 Not included in this repo is `.extra`, which sets up my personal git
-identity. Right now, it looks like this:
+identity. Right now, it looks like this (with my personal information
+substituted in the `<>`):
 
 ```bash
 # name
@@ -23,3 +24,9 @@ GIT_AUTHOR_EMAIL="<email address>"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
+## Zenburn theme
+
+The `PS1` prompt color scheme in `.bash_prompt` is based on the
+[Zenburn theme](http://kippura.org/zenburnpage/), which I use with
+both Emacs and terminal. [The terminal version can be downloaded
+here.](https://github.com/bdesham/zenburn-terminal)
