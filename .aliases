@@ -6,6 +6,19 @@ alias ll="ls -aohG"
 alias grep="grep --color=auto"
 alias stata="/Applications/Stata/StataMP.app/Contents/MacOS/stata-mp"
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+alias EMACS="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+alias R="R --no-save"
+
+# for dplyr.sh
+alias mutate="dplyr.sh mutate"
+alias filter="dplyr.sh filter"
+alias select="dplyr.sh select"
+alias summarise="dplyr.sh summarise"
+alias group_by="dplyr.sh group_by"
+alias ungroup="dplyr.sh ungroup"
+alias count="dplyr.sh count"
+alias arrange="dplyr.sh arrange"
+alias kable="dplyr.sh kable"
 
 # ------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------
