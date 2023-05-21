@@ -6,21 +6,22 @@
 # export BASH_SILENCE_DEPRECATION_WARNING=1
 export SHELL_SESSION_HISTORY=0
 
-# add to path
-# export PATH="/usr/local/opt/texinfo/bin:$PATH"
-# export PATH="/usr/local/opt/ruby/bin:/usr/local/sbin:$PATH"
-# export PATH="/Users/benski/bin:/usr/local/opt:$PATH"
+# add to path 
+export PATH="~/.emacs.d/bin:$PATH"
+export PATH="/usr/local/opt/texinfo/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/Users/benski/bin:/usr/local/opt:$PATH"
 
 # locale
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 # use emacs as git editor in Terminal
-# export GIT_EDITOR="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
-# export HOMEBREW_EDITOR="/Applications/Emacs.app/Contents/MacOS/Emacs"
+export GIT_EDITOR="/usr/local/bin/emacs -nw"
+export HOMEBREW_EDITOR="/usr/local/bin/emacs -nw"
 
 # for Jekyll
-# export JEKYLL_GITHUB_TOKEN=$(cat ~/.github_token)
+export JEKYLL_GITHUB_TOKEN=$(cat ~/.github_token)
 
 # ------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------

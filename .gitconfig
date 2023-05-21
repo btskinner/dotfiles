@@ -5,6 +5,9 @@
 [color]
 	ui = auto
 
+[core]
+	editor = emacs
+
 [alias]
 	l = log --pretty=format:'%C(yellow)%h%Cgreen [%cn] %Cblue%ad%Cred%d %Creset%s' --decorate --date=short --graph
 	aliases = config --get-regexp alias	
@@ -14,7 +17,19 @@
 	fm = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
 	contributors = shortlog --summary --numbered
 	whoami = config user.email
-	tags = tag -l
+	tags = log --pretty=format:'%C(yellow)%h%Cgreen [%cn] %Cblue%ad%Cred%d %Creset%s' --decorate --date=short --no-walk --tags
 	branches = branch -a
 	remotes = remote -v
 	
+[user]
+	name = btskinner
+	email = btskinner@coe.ufl.edu
+
+[pull]
+	rebase = false
+
+[init]
+	defaultBranch = main
+
+[url "git@github.com:"]
+        insteadOf = https://github.com/
